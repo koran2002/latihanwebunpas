@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pake grid</title>
+</head>
+<style type="text/css">
+	body, html {
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+		font-family: arial;
+		text-transform: uppercase;
+		color: white;
+		text-align: center;
+	}
+	.container {
+		width: 600px;
+		margin: 50px auto;
+		box-sizing: border-box;
+		padding: 5px;
+		border: 4px solid black;
+		display: grid;
+		grid-template-areas: "header header"
+		"aside main"
+		"nav main"
+		"footer footer";
+		grid-auto-columns: 1fr 1.5fr;
+		grid-template-rows: 1fr 1fr 1.3fr;
+	}
+	header {
+		grid-area: header;
+		background-color: blue;
+		padding: 40px;
+	}
+	
+	aside {
+		grid-area: aside;
+		background-color: green;
+		padding: 49px;
+	}
+
+	nav {
+		grid-area: nav;
+		background-color: lightcoral;
+		padding: 40.5px;
+	}
+
+	main {
+		grid-area: main;
+		background-color: red;
+		box-sizing: border-box;
+		flex: 1.5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	footer {
+		grid-area: footer;
+		background-color: darkgrey;
+		padding: 10px 0;
+	}
+</style>
+<body>
+<div class="container">
+	<header>header</header>
+	<aside>aside</aside>
+	<nav>nav</nav>
+	<main>main</main>
+	<footer>footer</footer>
+</div>
+</body>
+</html>

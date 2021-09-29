@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>implicit dan explicit grid</title>
+</head>
+<style type="text/css">
+	body, html {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
+
+	.container {
+		width: 60%;
+		margin: 50px auto;
+		display: grid;
+		grid-template-columns: 100px 200px;        /*mengatur explicit grid*/
+		grid-template-rows:100px 50px 100px;       /*mengatur explicit grid*/
+		grid-auto-rows: 100px;                     /*mengatur implicit grid*/
+		grid-auto-flow: column;                    /*mengatur implicit grid dan mengubah baris menjadi kolom dan sebaliknya*/  
+	}
+
+	.item {
+		background-color: lightblue;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.item:nth-child(even) {
+		background-color: lightgreen;
+	}
+
+</style>
+<body>
+<div class="container">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+	<div class="item">6</div>
+	<div class="item">7</div>
+	<div class="item">8</div>
+	<div class="item">9</div>
+	<div class="item">10</div>
+</div>
+</body>
+</html>

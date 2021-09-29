@@ -1,0 +1,41 @@
+div {
+	width: 200px;
+	height: 200px;
+}
+.satu {
+	background-color: indianred;
+	position: relative;
+	left: 100px;
+	top: 200px;
+}
+.dua {
+	background-color: grey;
+	width: 980px;
+	height: 80px;
+	position: relative;
+	bottom: 160px;
+	left: 10px;
+}
+.tiga {
+	background-color: grey;
+	width: 200px;
+	height: 80px;
+	position: relative;
+	left: 1100px;
+	bottom: 240px;
+}
+body {
+	background-color: peachpuff;
+}
+.empat {
+	background-color: orange;
+}
+.lima {
+	background-color: white;
+	border: 2px solid black;
+	position: relative;
+	width: 106px;
+	height: 77px;
+	left: 990px;
+	bottom: 520px;
+}

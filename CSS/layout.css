@@ -1,0 +1,106 @@
+h1 {
+	color: royalblue;
+	font-family: monospace;
+	text-align: center;
+	font-variant-caps: small-caps;
+}
+.satu {
+	width: 70px;
+	height: 50px;
+	background-color: grey;
+	margin-left: 190px;
+	border: 2px double black;
+}
+.dua {
+	width: 70px;
+	height: 50px;
+	background-color: aqua;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.tiga {
+	width: 70px;
+	height: 50px;
+	background-color: orange;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.empat {
+	background-color: green;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.lima {
+	background-color: darkblue;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.enam {
+	background-color: yellow;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.tujuh {
+	background-color: pink;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.delapan {
+	background-color: pink;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.sembilan {
+	background-color: red;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+.sepuluh {
+	background-color: violet;
+	width: 70px;
+	height: 50px;
+	margin-left: 30px;
+	border: 2px double black;
+}
+div {display: inline-block;}
+.konten {
+	display: block;
+	background-color: lightsalmon;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	border: 4px solid black;
+}
+.lorem {
+	width: 400px;
+	background-color: royalblue;
+	margin-left: 180px;
+	border: 4px dotted black;
+	padding: 10px;
+}
+#ipsum {
+	background-color: cyan;
+	padding: 3px;
+	margin: 30px auto;
+	border: 3px double black;
+}
+#dolor {
+	background-color: peachpuff;
+	padding: 3px;
+	margin: auto;
+	border: 3px dashed lightseagreen;
+}

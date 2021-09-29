@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>auto-fill & auto-fit</title>
+</head>
+<style type="text/css">
+	body, html {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
+
+	.container {
+		width: 60%;
+		margin: 50px auto;
+		border: 2px solid black;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 100px);   
+		/*jika kotak disebelah sudah tidak muat pada wadah, maka akan langsung dipindahkan kebawah menjadi baris baru. jika ukuran window nya di perbesar, maka kotak-kotak didalam wadah aka langsung mengisi tempat yang kosong pada baris sebelumnya.cocok untuk membuat web rensponsive*/
+		/*grid-template-columns: repeat(auto-fit, 100px);*/   
+		/*jika kotak dibaris kedua lebih sedikit, maka grid line nya berada pada kotak paling kanan pada wadah. untuk melihat perbedaannya, silahkan buka code ini dengan firefox lalu klik kana dan inspect element dana klik layout lalu klik grid, kemudian ceklis 2 kotak awal*/
+	}
+
+	.item {
+		background-color: lightblue;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.item:nth-child(even) {
+		background-color: darkgreen;
+	}
+
+</style>
+<body>
+<div class="container">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+	<div class="item">6</div>
+	<div class="item">7</div>
+	<div class="item">8</div>
+	<div class="item">9</div>
+</div>
+</body>
+</html>
