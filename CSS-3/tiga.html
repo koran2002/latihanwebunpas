@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBa & HSLa</title>
+    <style>
+        body {
+            background-image: url(../gambar/bg-abu.jpg);
+        }
+        .satu {
+            width: 400px;
+            height: 400px;
+            background-color: rgba(181, 18, 18, 0.5);
+            position: relative;
+            /* o.3 = .3 */
+            /* opacity itu antara 0-1 (0 itu sangat transparant, 1 itu sangat tidak transparant) */
+        }
+        .dua {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 1);
+            position: absolute;
+            right: -50px;
+            bottom: -50px;
+        }
+        /* elemen elemen satu bisa jadi solid sementara elemen dua transparan */
+        /* elemen dua bisa jadi solid dan elemen satu transparan jika kedua nya diberi properti RGBa atau HSLa pada background-color*/
+    </style>
+</head>
+<body>
+    <div class="satu">
+        <div class="dua">
+
+        </div>
+    </div>
+</body>
+</html>
